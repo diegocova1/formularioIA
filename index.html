@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario sobre Problemas de IA en los Trabajos Actuales</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Formulario sobre Problemas de IA en los Trabajos Actuales</h1>
+        <form id="iaForm" onsubmit="return validateForm()">
+            <fieldset>
+                <legend>Preguntas</legend>
+
+                <!-- Pregunta 1 -->
+                <label for="pregunta1">1. ¿Qué impacto tiene la inteligencia artificial en la pérdida de empleos?</label><br>
+                <select id="pregunta1" name="pregunta1" required>
+                    <option value="" disabled selected>Selecciona una opción</option>
+                    <option value="a">a) Puede causar una disminución en ciertos tipos de empleos</option>
+                    <option value="b">b) No tiene impacto en el empleo</option>
+                    <option value="c">c) Genera más empleos que los que elimina</option>
+                </select><br><br>
+
+                <!-- Pregunta 2 -->
+                <label for="pregunta2">2. ¿Cómo puede la inteligencia artificial afectar la privacidad de los datos de los trabajadores?</label><br>
+                <select id="pregunta2" name="pregunta2" required>
+                    <option value="" disabled selected>Selecciona una opción</option>
+                    <option value="a">a) Aumentando la seguridad de los datos</option>
+                    <option value="b">b) Comprometiendo la privacidad de los datos</option>
+                    <option value="c">c) Sin impacto en la privacidad</option>
+                </select><br><br>
+
+                <!-- Pregunta 3 -->
+                <label for="pregunta3">3. ¿Cuáles son los riesgos éticos asociados con el uso de la inteligencia artificial en los entornos laborales?</label><br>
+                <select id="pregunta3" name="pregunta3" required>
+                    <option value="" disabled selected>Selecciona una opción</option>
+                    <option value="a">a) Falta de transparencia en las decisiones automáticas</option>
+                    <option value="b">b) No existen riesgos éticos</option>
+                    <option value="c">c) Mayor equidad en las decisiones laborales</option>
+                </select><br><br>
+
+                <!-- Pregunta 4 -->
+                <label for="pregunta4">4. ¿Cómo puede la inteligencia artificial afectar la toma de decisiones en el lugar de trabajo?</label><br>
+                <select id="pregunta4" name="pregunta4" required>
+                    <option value="" disabled selected>Selecciona una opción</option>
+                    <option value="a">a) Mejorando la precisión y velocidad de las decisiones</option>
+                    <option value="b">b) Empeorando la calidad de las decisiones</option>
+                    <option value="c">c) No afectando las decisiones laborales</option>
+                </select><br><br>
+
+                <!-- Pregunta 5 -->
+                <label for="pregunta5">5. ¿Qué desafíos legales pueden surgir debido al uso de la inteligencia artificial en el ámbito laboral?</label><br>
+                <select id="pregunta5" name="pregunta5" required>
+                    <option value="" disabled selected>Selecciona una opción</option>
+                    <option value="a">a) Responsabilidad por decisiones automáticas</option>
+                    <option value="b">b) Ningún desafío legal</option>
+                    <option value="c">c) Menor necesidad de regulaciones laborales</option>
+                </select><br><br>
+
+                <input type="submit" value="Terminar">
+                <button onclick="window.open('respuestas2.html', '_blank')">Ver todas las preguntas y respuestas correctas</button>
+            </fieldset>
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
